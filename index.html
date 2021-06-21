@@ -2,26 +2,31 @@
 
 <html>
   <head>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="index.html" type="style/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Company Home Page with Flexbox</title>
   </head>
 
   <body>
     <div class="header">
-      <img src="images/logo.png">
-      <div class="navbar">
-        <p><a href="#aboutus">About us</a></p>
-        <p><a href="#product">Product</a></p>
-        <p><a href="#ourteam">Our Team</a></p>
+      <div class="container">
+        <img src="images/logo.png" />
+        <div class="navbar">
+          <p><a href="#aboutus">About us</a></p>
+          <p><a href="#product">Product</a></p>
+          <p><a href="#ourteam">Our Team</a></p>
+        </div>
       </div>
     </div>
 
     <div class="main">
       <div class="aboutus">
         <h1>8 years of innovating security.</h1>
-        <p>And counting. Welcome to SatoshiLabs, the inventors of Trezor. The original cryptocurrency hardware wallet.</p>
+        <p>
+          And counting. Welcome to SatoshiLabs, the inventors of Trezor. The
+          original cryptocurrency hardware wallet.
+        </p>
       </div>
 
       <div class="product">
@@ -29,35 +34,54 @@
         <p>Securing your digital assets has never been more straightforward.</p>
         <div class="seed">
           <p class="bold">Recovery seed. Offline.</p>
-          <p>Your entire wallet is always accessible via your personal 12 to 24 words long recovery seed.</p>
+          <p>
+            Your entire wallet is always accessible via your personal 12 to 24
+            words long recovery seed.
+          </p>
         </div>
         <div class="unique">
           <p class="bold">Unique for you.</p>
-          <p>When you first set up your Trezor, it will generate the seed for you. When you need to restore access to your wallet, use this offline backup.</p>
+          <p>
+            When you first set up your Trezor, it will generate the seed for
+            you. When you need to restore access to your wallet, use this
+            offline backup.
+          </p>
         </div>
         <div class="cross compatible">
           <p class="bold">Cross-compatible.</p>
-          <p>The recovery seed follows a standard created by us at SatoshiLabs, but it is widely used, compatible with many wallet apps.</p>
+          <p>
+            The recovery seed follows a standard created by us at SatoshiLabs,
+            but it is widely used, compatible with many wallet apps.
+          </p>
         </div>
       </div>
 
       <div class="ourteam">
         <h2>Meet the team</h2>
-        <p>The SatoshiLabs team includes both internal and external collaborators, working together to bring greater security, usability and privacy to cryptocurrencies through products and services that improve the ecosystem from within.</p>
+        <p>
+          The SatoshiLabs team includes both internal and external
+          collaborators, working together to bring greater security, usability
+          and privacy to cryptocurrencies through products and services that
+          improve the ecosystem from within.
+        </p>
         <div class="container">
           <div class="item">
-            <img src="images/team-member-1.jpg">
+            <img src="images/team-member-1.jpg" />
           </div>
           <div class="item">
-            <img src="images/team-member-2.jpg">
+            <img src="images/team-member-2.jpg" />
           </div>
         </div>
       </div>
     </div>
 
     <div class="footer">
-      <p>Crafted with care in the Czech Republic</p>
-      <span><p>&#169; 2021</p></span>
+      <div class="container">
+        <p>Crafted with care in the Czech Republic</p>
+        <span>
+          <p>&#169; 2021</p>
+        </span>
+      </div>
     </div>
   </body>
 </html>
