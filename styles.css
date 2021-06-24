@@ -99,6 +99,7 @@ html {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 #product .reason {
@@ -108,8 +109,38 @@ html {
 
 /* Our team */
 
+#ourteam .content {
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+}
+
 #ourteam h2 {
-    margin-top: 2rem;
+
     font-size: 2rem;
     text-align: center;
 }
+
+#ourteam p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#ourteam .container {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ourteam .item {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ourteam img {
+    width: 80%;
+}
+
